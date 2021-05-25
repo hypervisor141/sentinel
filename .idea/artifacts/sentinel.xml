@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sentinel">
+    <output-path>$PROJECT_DIR$/out/artifacts/sentinel</output-path>
+    <root id="archive" name="sentinel.jar">
+      <element id="module-output" name="sentinel.main" />
+      <element id="module-source" name="sentinel.main" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources" />
+    </root>
+  </artifact>
+</component>
