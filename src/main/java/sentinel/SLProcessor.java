@@ -8,16 +8,16 @@ import javax.lang.model.element.TypeElement;
 import javax.tools.Diagnostic;
 import java.util.Set;
 
-@SupportedAnnotationTypes("vanguard.annotation.VLANTModConstructor")
-public class VLANTProcessor extends AbstractProcessor{
+@SupportedAnnotationTypes("sentinel.SLRestrictedConstructor")
+public class SLProcessor extends AbstractProcessor{
 
-    public VLANTProcessor(){
+    public SLProcessor(){
 
     }
 
     @Override
     public boolean process(Set<? extends TypeElement> set, RoundEnvironment renv){
-        for(Element reference : renv.getElementsAnnotatedWith(VLANTModConstructor.class)){
+        for(Element reference : renv.getElementsAnnotatedWith(SLRestrictedConstructor.class)){
             processingEnv.getMessager().printMessage(Diagnostic.Kind.ERROR, "This constructor is not meant to be used directly, it is meant for subclasses " +
                     "to use for copy constructors and modifications to superclass functionality.", reference);
         }

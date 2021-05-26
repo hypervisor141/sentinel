@@ -6,6 +6,6 @@ import java.lang.annotation.*;
 @Target(ElementType.CONSTRUCTOR)
 @Documented
 
-public @interface VLANTModConstructor{
+public @interface SLRestrictedConstructor {
 
 }
