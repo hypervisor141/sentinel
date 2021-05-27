@@ -1,0 +1,8 @@
+-classpath '/home/shayan/data/projects/sources/java/sentinel/build/classes/java/main:/home/shayan/data/projects/sources/java/sentinel/build/resources/main'
+-d '/home/shayan/data/projects/sources/java/sentinel/build/docs/javadoc'
+-doctitle 'sentinel 1.1.0 API'
+-notimestamp 
+-quiet 
+-windowtitle 'sentinel 1.1.0 API'
+'/home/shayan/data/projects/sources/java/sentinel/src/main/java/hypervisor/sentinel/SLProcessor.java'
+'/home/shayan/data/projects/sources/java/sentinel/src/main/java/hypervisor/sentinel/SLRestrictedConstructor.java'
