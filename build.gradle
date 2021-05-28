@@ -34,7 +34,6 @@ publishing{
         release(MavenPublication){
             artifact file("out/artifacts/${project.name}/${project.name}.jar")
 
-
             pom{
                 name = "${project.name}"
                 description = "A set of annotations and annotation processor tools to enforce specific coding styles"

@@ -21,8 +21,7 @@ public class SLProcessor extends AbstractProcessor{
     @Override
     public boolean process(Set<? extends TypeElement> set, RoundEnvironment renv){
         for(Element reference : renv.getElementsAnnotatedWith(SLRestrictedConstructor.class)){
-            processingEnv.getMessager().printMessage(Diagnostic.Kind.ERROR, "This constructor is not meant to be used directly, it is meant for subclasses " +
-                    "to use for copy constructors and modifications to superclass functionality.", reference);
+            processingEnv.getMessager().printMessage(Diagnostic.Kind.ERROR, "test", reference);
         }
 
         return false;
