@@ -9,7 +9,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff849711-a7ca-41bf-b228-7d832ec6136b" name="Default Changelist" comment="" />
+    <list default="true" id="ff849711-a7ca-41bf-b228-7d832ec6136b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/sentinel-1.1.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/sentinel-1.1.0-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/sentinel-1.1.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/sentinel-1.1.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/sentinel-1.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/sentinel-1.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/publications/main/pom-default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/publishMainPublicationToMavenLocal/module-maven-metadata.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +94,7 @@
     <property name="project.structure.side.proportion" value="0.19593346" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
-  <component name="RunManager" selected="Gradle.sentinel [publishMainPublicationToMavenLocal]">
+  <component name="RunManager" selected="Gradle.sentinel [publishReleasePublicationToMavenLocal]">
     <configuration name="sentinel [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -93,27 +107,6 @@
         <option name="taskNames">
           <list>
             <option value="buildDependents" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="sentinel [buildNeeded]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="buildNeeded" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,13 +179,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="sentinel [publishReleasePublicationToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="publishReleasePublicationToMavenLocal" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.sentinel [publishMainPublicationToMavenLocal]" />
+        <item itemvalue="Gradle.sentinel [publishReleasePublicationToMavenLocal]" />
         <item itemvalue="Gradle.sentinel [build]" />
         <item itemvalue="Gradle.sentinel [clean]" />
+        <item itemvalue="Gradle.sentinel [publishMainPublicationToMavenLocal]" />
         <item itemvalue="Gradle.sentinel [buildDependents]" />
-        <item itemvalue="Gradle.sentinel [buildNeeded]" />
       </list>
     </recent_temporary>
   </component>

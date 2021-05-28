@@ -29,28 +29,27 @@ java {
     withSourcesJar()
 }
 
-afterEvaluate {
-    publishing{
-        publications{
-            main(MavenPublication){
-                artifact file("out/artifacts/${project.name}/${project.name}.jar")
+publishing{
+    publications{
+        release(MavenPublication){
+            artifact file("out/artifacts/${project.name}/${project.name}.jar")
 
-                pom{
-                    name = "${project.name}"
-                    description = "A set of annotations and annotation processor tools to enforce specific coding styles"
 
-                    licenses{
-                        license{
-                            name = "The GNU General Public License, Version 3.0"
-                            url = "https://www.gnu.org/licenses/gpl-3.0.en.html"
-                        }
+            pom{
+                name = "${project.name}"
+                description = "A set of annotations and annotation processor tools to enforce specific coding styles"
+
+                licenses{
+                    license{
+                        name = "The GNU General Public License, Version 3.0"
+                        url = "https://www.gnu.org/licenses/gpl-3.0.en.html"
                     }
-                    developers{
-                        developer{
-                            id = "hypervisor"
-                            name = "Shayan Aria"
-                            email = "hypervisor141@gmail.com"
-                        }
+                }
+                developers{
+                    developer{
+                        id = "hypervisor"
+                        name = "Shayan Aria"
+                        email = "hypervisor141@gmail.com"
                     }
                 }
             }
